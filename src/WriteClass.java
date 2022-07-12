@@ -31,19 +31,20 @@ public class WriteClass {
 
 
         //  test class interdependency :: it WORKS
-        ExecutionTime boop = new ExecutionTime();
-        out.println(boop.loops);  // ???  WHY IS IT NOT PRINTING?   *  It is printing now, lines 3-7 in ExecutionTime.java
+        //ExecutionTime boop = new ExecutionTime();   // double instance. refer directly to the class value/identifier
+
+        out.println("Processing time: (m/s) " + ExecutionTime.loops);  // ???  WHY IS IT NOT PRINTING?   *  It is printing now, lines 3-7 in ExecutionTime.java
 
 
 
       // process arguments
         String input;
-        input = "artificialClass";
+        input = args[0];
 
 
         // temp code
-        String initiate = "Creating main() method without input " + input + "(String args[]);";
-        out.println(initiate);
+        String initiate = "Creating main() method without input " + input + "(String args[])";
+        out.println(initiate + "  {\n\n}");
 
     }  // end main() method
 

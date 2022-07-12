@@ -3,7 +3,7 @@ public class ExecutionTime {
     static int loops;  // why 'static'?
 
     static {
-        loops = 100;
+        loops = 1;  // one million...
     }
 
     //constructor{

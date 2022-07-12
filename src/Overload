@@ -1,7 +1,7 @@
 
 public class Overload {
     String success = "Overload successful!";
-    String fail = "Overload failed, mothercurry...";
+    String fail = "Overload failed, sorry...";
 
     public int overload(int i, int b)  {
         int x = i + b;

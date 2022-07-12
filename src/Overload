@@ -3,7 +3,7 @@ public class Overload {
     String success = "Overload successful!";
     String fail = "Overload failed, mothercurry...";
 
-    private int overload(int i, int b)  {
+    public int overload(int i, int b)  {
         int x = i + b;
 
         return x;

@@ -1,0 +1,19 @@
+
+public class Overload {
+    String success = "Overload successful!";
+    String fail = "Overload failed, mothercurry...";
+
+    private int overload(int i, int b)  {
+        int x = i + b;
+
+        return x;
+    } //end method
+    public int overload(int y, int z, int f) {
+        int q;
+        q = y + z + f;
+        return q;
+    } //end method
+
+    public static void main(String[] args) {}
+
+} //end class Overload
